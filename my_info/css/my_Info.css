@@ -1,0 +1,123 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+
+.sxy-icon{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sxy-icon-age{
+	background-image: url(../img/age.png);
+}
+
+.sxy-icon-home{
+	background-image: url(../img/gps.png);
+}
+.sxy-icon-phone{
+	background-image: url(../img/phone.png);
+}
+.sxy-icon-email{
+	background-image: url(../img/email.png);
+}
+
+.box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.left{
+	height: 100%;
+	width: 13%;
+	background-color: #103D62;
+	float: left;
+	overflow-x: hidden;
+}
+.right{
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0,0,0,0.2);
+}
+
+.head{
+	max-width: 128px;
+	height: 128px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 5px 5px;
+	background-color: white;
+	box-shadow: 0 0 0 2px rgb(0,0,0,0.1);
+}
+
+
+.img{
+width: 95%;
+height: 95%;
+margin: auto;
+position: relative;
+top:3px;
+border-radius: 3px 3px;
+background-image: url(../img/my_head.jpg);
+background-size:cover ;	
+background-position: center;
+box-shadow: 0 0 0 2px rgb(0,0,0,0.1);
+}
+
+.list_info{
+margin-top:20px;
+overflow: hidden;
+width: 200px;
+}
+
+.list_info ul li{
+	height: 20px;
+	margin-top: 5px;
+	color: white;
+	text-align: left;
+}
+.info_text{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin-left:5px ;
+	margin-top: -5px;
+	position: relative;
+	top:-3px;
+}
+.jishu{
+	margin-top: 20px;
+}
+.jn_type{
+	color: white;
+	font-weight: bold;
+}
+.jn{
+	padding-left:35px;
+	color: white;
+}
+.like{
+	width: 55px;
+	height: 55px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img-bilibili{
+	background-image: url(../img/BILIBILI_LOGO.png);
+}
+.img-bike{
+	background-image: url(../img/bike.png);
+}
+.my_like table{
+	width:120px;
+}
+.my_like table td{
+	text-align: center;
+	color: white;
+}
