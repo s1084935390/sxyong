@@ -29,15 +29,15 @@ body,html{
 .box{
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
 }
 
 .left{
 	height: 100%;
-	width: 13%;
+	width: 15%;
+	min-width: 200px;
 	background-color: #103D62;
 	float: left;
-	overflow-x: hidden;
+	position: relative;
 }
 .right{
 		height: 100%;
@@ -120,4 +120,45 @@ width: 200px;
 .my_like table td{
 	text-align: center;
 	color: white;
+}
+
+
+
+
+.right{
+	width: 82%;
+	background-color: white;
+	float: left;
+}
+.myname{
+	margin-top: 20px;
+	font-family: "楷体";
+	font-weight: bold;
+}
+
+
+.content{
+	margin: auto;
+	padding-left:20px ;
+	height: 95%;
+	min-width: 180px;
+	margin-top: 30px;
+	margin-left: 20px;
+	border: 1px solid lightgray;
+	border-radius:8px;
+	overflow-y: scroll;
+}
+
+/*整体*/
+.content::-webkit-scrollbar{
+	
+	width: 1px;
+}
+/*滑块*/
+.content::-webkit-scrollbar-thumb {
+	
+}
+
+.content::-webkit-scrollbar-thumb {
+	
 }
